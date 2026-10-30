@@ -1,17 +1,14 @@
-<h1>ExpNo 1 :Developing AI Agent with PEAS Description</h1>
-<h3>Name: HALIMA HARISHA A</h3>
-<h3>Register Number:212224040094</h3>
+# ExpNo 1 :Developing AI Agent with PEAS Description</h1>
+### Name: HALIMA HARISHA A
+### Register Number: 212224040094
 
 
-<h3>AIM:</h3>
-<br>
-<p>To find the PEAS description for the given AI problem and develop an AI agent.</p>
-<br>
-<h3>Theory</h3>
-<h3>Medicine prescribing agent:</h3>
-<p>Such this agent prescribes medicine for fever (greater than 98.5 degrees) which we consider here as unhealthy, by the user temperature input, and another environment is rooms in the hospital (two rooms). This agent has to consider two factors one is room location and an unhealthy patient in a random room, the agent has to move from one room to another to check and treat the unhealthy person. The performance of the agent is calculated by incrementing performance and each time after treating in one room again it has to check another room so that the movement causes the agent to reduce its performance. Hence, agents prescribe medicine to unhealthy.</p>
-<hr>
-<h3>PEAS DESCRIPTION:</h3>
+## AIM:
+To find the PEAS description for the given AI problem and develop an AI agent.</p>
+## Theory
+### Medicine prescribing agent:</h3>
+Such this agent prescribes medicine for fever (greater than 98.5 degrees) which we consider here as unhealthy, by the user temperature input, and another environment is rooms in the hospital (two rooms). This agent has to consider two factors one is room location and an unhealthy patient in a random room, the agent has to move from one room to another to check and treat the unhealthy person. The performance of the agent is calculated by incrementing performance and each time after treating in one room again it has to check another room so that the movement causes the agent to reduce its performance. Hence, agents prescribe medicine to unhealthy.
+## PEAS DESCRIPTION:
 <table>
   <tr>
     <td><strong>Agent Type</strong></td>
@@ -40,8 +37,9 @@
 <p>Treat unhealthy patients in each room. And check for the unhealthy patients in random room</p>
 <h3>STEP 5:</h3>
 <p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
-<H3>PROGRAM</H3>
 
+## Program: 
+```
 import random
 class MedicinePrescribingAgent:
     def __init__(self):
@@ -82,11 +80,10 @@ class MedicinePrescribingAgent:
         print("\nFinal Performance:", self.performance)
 agent = MedicinePrescribingAgent()
 agent.run()
+```
 
-<H3>OUTPUT</H3>
+## Output:
+<img width="1386" height="535" alt="image" src="https://github.com/user-attachments/assets/06fe1ff9-cefa-4f06-ab4a-3f3e13555779" />
 
-<img width="607" height="456" alt="image" src="https://github.com/user-attachments/assets/68f7d93c-efc8-4ab6-b411-3b2d40e18e56" />
-
- <H3>RESULT</H3>
-
- Thus the developing AI Agent with PEAS Description was implemented using Python Programming Successfully.
+## Result
+Thus the developing AI Agent with PEAS Description was implemented using Python Programming Successfully.
