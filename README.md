@@ -41,7 +41,7 @@
 <h3>STEP 5:</h3>
 <p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
 <H3>PROGRAM</H3>
-```
+
 import random
 class MedicinePrescribingAgent:
     def __init__(self):
@@ -82,7 +82,7 @@ class MedicinePrescribingAgent:
         print("\nFinal Performance:", self.performance)
 agent = MedicinePrescribingAgent()
 agent.run()
-```
+
 <H3>OUTPUT</H3>
 
 <img width="607" height="456" alt="image" src="https://github.com/user-attachments/assets/68f7d93c-efc8-4ab6-b411-3b2d40e18e56" />
